@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Nguyễn Hoàng Quân",
+        "email": "hoangquan1992@gmail.com",
+        "tel": "0399284482",
+        "content": "Mình cần tư vấn web quảng cáo doanh nghiệp",
+        "date": "11:33 23-4-2020",
+        "isReply": true
+    },
+    {
+        "id": 2,
+        "name": "Lê Bình Trọng",
+        "email": "binhtrong1989@gmail.com",
+        "tel": "0833729448",
+        "content": "Báo giá thiết kế web bán hàng Tiếp thị",
+        "date": "21:52 23-4-2020",
+        "isReply": false
+    },
+    {
+        "id": 3,
+        "name": "Lê Thăng Tiến",
+        "email": "thangtien2000@gmail.com",
+        "tel": "0833729448",
+        "content": "Báo giá thiết kế web bán hàng siêu thị",
+        "date": "9:27 1-4-2020",
+        "isReply": false
+    },
+    {
+        "id": 4,
+        "name": "Phan Bách Nghĩa",
+        "email": "bachnghia90@gmail.com",
+        "tel": "0833729448",
+        "content": "Báo giá thiết kế blog cá nhân",
+        "date": "8:51 29-3-2020",
+        "isReply": false
+    }
+]

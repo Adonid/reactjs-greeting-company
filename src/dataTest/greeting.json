@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "title": "TẦM NHÌN - SỨ MỆNH",
+        "image": "https://webphuquoc.com/wp-content/uploads/2016/02/1.jpg",
+        "short": "Mỗi website là một niềm vui mà chúng tôi muốn gửi tới khách hàng nhưng người mà từ tận đáy lòng lòng mình chúng tôi luôn biết ơn họ đã cho chúng tôi cơ hội được làm việc.",
+        "ability":["Chúng tôi phải tạo ra được niềm tự hào thực sự cho khách hàng", "Chúng tôi tin rằng một website tốt phải tạo ra một sự tin cậy cho người xem ở lần đầu tiên", "Chúng tôi luôn cải tiến nâng cấp công nghệ thiết kế web để khách hàng tiếp cận được với những công nghệ tiên tiến nhất của thế giới"]
+    },
+    {
+        "id": 2,
+        "title": "ĐỊNH HƯỚNG PHÁT TRIỂN",
+        "image": "https://webphuquoc.com/wp-content/uploads/2016/02/3.jpg",
+        "short": "Mỗi website là một niềm vui mà chúng tôi muốn gửi tới khách hàng nhưng người mà từ tận đáy lòng lòng mình chúng tôi luôn biết ơn họ đã cho chúng tôi cơ hội được làm việc.",
+        "ability":["Chúng tôi phải tạo ra được niềm tự hào thực sự cho khách hàng", "Chúng tôi tin rằng một website tốt phải tạo ra một sự tin cậy cho người xem ở lần đầu tiên", "Chúng tôi luôn cải tiến nâng cấp công nghệ thiết kế web để khách hàng tiếp cận được với những công nghệ tiên tiến nhất của thế giới"]
+    },
+    {
+        "id": 3,
+        "title": "GIÁ TRỊ CỐT LỖI",
+        "image": "https://webphuquoc.com/wp-content/uploads/2016/02/2.jpg",
+        "short": "Mỗi website là một niềm vui mà chúng tôi muốn gửi tới khách hàng nhưng người mà từ tận đáy lòng lòng mình chúng tôi luôn biết ơn họ đã cho chúng tôi cơ hội được làm việc.",
+        "ability":["Cung cấp sản phẩm và dịch vụ chất lượng cao nhất.", "Dịch vụ được hướng dẫn tận tình và hỗ trợ nhanh chóng.", "Hỗ trợ seo và marketing tốt nhất.", "Bảo trì, bảo hành trọn đời cho sản phẩm."]
+    },
+    {
+        "id": 4,
+        "title": "THƯỢNG TÔN KHÁCH HÀNH",
+        "image": "https://webphuquoc.com/wp-content/uploads/2016/02/bigstock-Web-design-concept-40488610-4.jpg",
+        "short": "Mỗi website là một niềm vui mà chúng tôi muốn gửi tới khách hàng nhưng người mà từ tận đáy lòng lòng mình chúng tôi luôn biết ơn họ đã cho chúng tôi cơ hội được làm việc.",
+        "ability":["Chúng tôi phải tạo ra được niềm tự hào thực sự cho khách hàng", "Chúng tôi tin rằng một website tốt phải tạo ra một sự tin cậy cho người xem ở lần đầu tiên", "Chúng tôi luôn cải tiến nâng cấp công nghệ thiết kế web để khách hàng tiếp cận được với những công nghệ tiên tiến nhất của thế giới"]
+    }
+]

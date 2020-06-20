@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "name": "Gói giới thiệu",
+        "price": "1,199",
+        "support": ["Web Giới Thiệu Doanh Nghiệp", "Website Giới Thiệu Sản Phẩm, Dịch Vụ (Không Giỏ Hàng)", "Đầy Đủ Các Tính Năng", "Chi Phí Tiết Kiệm"],
+        "no_support": ["Lorem ipsum dolor sit amet", "Consectetur adipisicing elit"]
+    },
+    {
+        "id":2,
+        "name": "Gói bán hàng cơ bản",
+        "price": "2,099",
+        "support": ["Website Bán Sản Phẩm, Dịch Vụ", "Website Thương Mại Điện Tử", "Đầy Đủ Các Tính Năng", "Tích Hợp Tính Năng Đặt Hàng"],
+        "no_support": ["Lorem ipsum dolor sit amet", "Consectetur adipisicing elit"]
+    },
+    {
+        "id":3,
+        "name": "Gói bán hàng nâng cao",
+        "price": "3,799",
+        "support": ["Web Du Lịch, Khách Sạn, Nhà Hàng", "Website Giải Trí, Xem Phim", "Đầy Đủ Các Tính Năng", "Có Tích Hợp Booking"],
+        "no_support": ["Lorem ipsum dolor sit amet", "Consectetur adipisicing elit"]
+    }
+]

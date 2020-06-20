@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "title":"Năng cao hiệu suất, cập nhật công nghệ mới",
+        "icon":"pe-7s-loop",
+        "post":"1"
+    },
+    {
+        "id":2,
+        "title":"Giao diện thân thiện, tích hợp nhiều tính năng nâng cao",
+        "icon":"pe-7s-diamond",
+        "post":"2"
+    },
+    {
+        "id":3,
+        "title":"Công nghệ thời gian thực với nhu cầu ngày càng tăng của khách hàng",
+        "icon":"pe-7s-lock",
+        "post":"3"
+    }
+]

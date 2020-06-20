@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Le The Luong",
+        "tel" : "0988763328",
+        "email": "theluong@gmail.com",
+        "image": "avatars/3.jpg",
+        "permission": "2",
+        "posts": "12",
+        "date": "23-9-2019"
+    },
+    {
+        "id": 2,
+        "name": "Nguyen Kim Ha",
+        "tel" : "0382839923",
+        "email": "kimha1991@gmail.com",
+        "image": "avatars/1.jpg",
+        "permission": "2",
+        "posts": "3",
+        "date": "12-3-2020"
+    },
+    {
+        "id": 3,
+        "name": "Ho Xuan Bac",
+        "tel" : "0878124465",
+        "email": "xuanbac1995@gmail.com",
+        "image": "avatars/2.jpg",
+        "permission": "1",
+        "posts": "8",
+        "date": "1-12-2019"
+    },
+    {
+        "id": 4,
+        "name": "Vu Trong Tuan",
+        "tel" : "0382746620",
+        "email": "trongtuanvu1993@gmail.com",
+        "image": "avatars/4.jpg",
+        "permission": "2",
+        "posts": "14",
+        "date": "8-10-2019"
+    }
+]

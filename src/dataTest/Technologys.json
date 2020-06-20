@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "title":"React.js",
+        "short":"Các công ty lớn như Airbnb và Netflix đã sử dụng React.js trong một số năm nay và chúng tôi thấy rằng công nghệ này đang được ngày càng nhiều công ty chấp nhận. Sự quan tâm đến React giữa các nhà phát triển là rất lớn và điều đó khiến nó trở thành một công nghệ sẽ chỉ trở nên phổ biến trong những năm tới.",
+        "icon":"pe-7s-loop",
+        "post":"1"
+    },
+    {
+        "id":2,
+        "title":"Vue.js",
+        "short":"Do sự tương đồng với React và Angular về mặt kiến trúc, nó là một sự chuyển đổi dễ dàng từ các framework khác. Được yêu thích vì kích thước nhỏ (chỉ 20KB), tốc độ và tính linh hoạt, Vue.js mang lại hiệu năng tốt thậm chí còn tốt hơn so với các framework front-end khác.",
+        "icon":"pe-7s-look",
+        "post":"2"
+    },
+    {
+        "id":3,
+        "title":"Kotlin",
+        "short":"Thật thú vị khi thấy, như một nghiên cứu của Pusher đã chỉ ra rằng, Kotlin được sử dụng chủ yếu bởi các nhà phát triển có kinh nghiệm trong những năm đầu tiên (kể từ năm 2011), nhưng kể từ khi Google công bố, đó là các nhà phát triển trẻ, đặc biệt là sinh viên, những người tác động đến sự phát triển lớn. ",
+        "icon":"pe-7s-lock",
+        "post":"3"
+    }
+]

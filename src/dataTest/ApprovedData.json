@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "author": "Minh Vương",
+        "image": "./assets/images/avatars/4.jpg",
+        "permission": "Quản trị bài viết",
+        "postTitle": "Ở NHÀ CẢ NGÀY CÁCH LY XÃ HỘI CÓ CẦN DÙNG KEM CHỐNG NẮNG?",
+        "time": "11:19 06/04/2020",
+        "accepted": false
+    },
+    {
+        "id": 2,
+        "author": "Lê Mạnh Dũng",
+        "image": "./assets/images/avatars/1.jpg",
+        "permission": "Quản trị bài viết",
+        "postTitle": "KIM TAE HEE NGOÀI ĐỜI THÍCH MẶC ĐỒ TRẮNG NHƯNG ĐEO TÚI HIỆU MÀU SẮC",
+        "time": "08:11 02/04/2020",
+        "accepted": false
+    },
+    {
+        "id": 3,
+        "author": "Nguyễn Quang Huy",
+        "image": "./assets/images/avatars/3.jpg",
+        "permission": "Quản trị bài viết",
+        "postTitle": "MỸ NHÂN 10X MẶC NHIỀU ĐỒ HIỆU ĐẮT ĐỎ, ĐEO NHẪN 3.300 USD ĐẾN TRƯỜNG",
+        "time": "11:15 30/03/2020",
+        "accepted": false
+    }
+]
