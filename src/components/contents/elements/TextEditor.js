@@ -9,12 +9,11 @@ class TextEditor extends Component {
         };
         this.props.getTextEditor(this.state.content);
     }
-    
     render() {
         return (
             <div className="col-xs-12 bg-white">
                 <Editor
-                    // apiKey="g6j5aqzhhcuqyw9tlkubpsl1x1hd0l0ze7exfz3id0xqxs97"
+                    apiKey="g6j5aqzhhcuqyw9tlkubpsl1x1hd0l0ze7exfz3id0xqxs97"
                     initialValue={this.state.content}
                     init={{
                         height: 500,
@@ -27,22 +26,24 @@ class TextEditor extends Component {
                         autosave_prefix: "{path}{query}-{id}-",
                         autosave_restore_when_empty: false,
                         autosave_retention: "2m",
+                        a11y_advanced_options: true,
                         image_advtab: true,
                         image_caption: true,
                         image_list: [
                             {title: '<img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="nice" />', value: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png' },
                             {title: 'My image 2', value: 'https://i.ytimg.com/an_webp/qCdE6IL62yQ/mqdefault_6s.webp?du=3000&sqp=CNDAi_cF&rs=AOn4CLB1spjuimjOpVyQsCRICCHRObjWRw' }
                         ],
-                        file_picker_types: 'image',  // file image media
+                        image_class_list: [
+                            { title: 'None', value: '' },
+                            { title: 'Some class', value: 'img-fluid rounded' }
+                        ],
+                        // file_picker_types: 'image',  // file image media
                         automatic_uploads: false,
                         file_picker_callback: function (callback, value, meta) {
-                            
-                            
                             /* Provide file and text for the link dialog */
                             if (meta.filetype === 'file') {
                               callback('https://www.google.com/logos/google.jpg', { text: 'My text' });
                             }
-                        
                             /* Provide image and alt text for the image dialog */
                             if (meta.filetype === 'image') {
                                 var input = document.createElement('input');
@@ -56,10 +57,8 @@ class TextEditor extends Component {
                                 just in case, and visually hide it. And do not forget do remove it
                                 once you do not need it anymore.
                                 */
-
                                 input.onchange = function () {
                                 var file = this.files[0];
-
                                 var reader = new FileReader();
                                 reader.addEventListener("load", function () {
                                     /*
@@ -76,13 +75,12 @@ class TextEditor extends Component {
                                    /* Call AXIOS -> API HERE */
                                    
                                    /* call the callback and populate the Title field with the file name */
-                                    callback('url_of_response_image', { title: file.name });
+                                    callback('url_image_from_API', { title: file.name });
                                 });
                                 reader.readAsDataURL(file);
                                 };
                                 input.click();
                             }
-                        
                             /* Provide alternative source and posted for the media dialog */
                             if (meta.filetype === 'media') {
                               callback('movie.mp4', { source2: 'alt.ogg', poster: 'https://www.google.com/logos/google.jpg' });
@@ -93,10 +91,6 @@ class TextEditor extends Component {
                 />
             </div>
         );
-    }
-
-    
-    
+    }  
 }
-
 export default TextEditor;
